@@ -36,7 +36,7 @@ public class Mapfile {
     
     public void addLayer(Layer l) {
         if (layers == null) {
-            layers = new ArrayList<>();
+            layers = new ArrayList<Layer>();
         }
         
         layers.add(l);

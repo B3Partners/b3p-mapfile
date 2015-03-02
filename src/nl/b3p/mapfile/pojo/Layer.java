@@ -37,7 +37,7 @@ public class Layer {
     
     public void addLayerClass(LayerClass lc) {
         if (classes == null) {
-            classes = new ArrayList<>();
+            classes = new ArrayList<LayerClass>();
         }
         
         classes.add(lc);
